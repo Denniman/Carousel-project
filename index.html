@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carousel</title>
+</head>
+<body>
+      <section class="carousel">
+        <button class="carousel__button previous-button" hidden>
+          <svg id="left" viewBox="0 0 54 69.007">
+            <path d="M47 0L3.44 34.502 47 69.007z" />
+          </svg>
+        </button>
+  
+        <div class="carousel__contents-container">
+          <ul class="carousel__contents">
+            <li class="carousel__slide is-selected">
+              <a href="#">
+                <img src="images/image1.jpg" alt="" />
+              </a>
+            </li>
+            <li class="carousel__slide">
+              <a href="#">
+                <img src="images/image2.jpg" alt="" />
+              </a>
+            </li>
+            <li class="carousel__slide">
+              <a href="#">
+                <img src="images/image3.jpg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+  
+        <button class="carousel__button next-button">
+          <svg viewBox="0 0 54 69.007">
+            <path d="M5-.121l43.56 34.502L5 68.886z" />
+          </svg>
+        </button>
+  
+        <div class="carousel__dots">
+          <button class="carousel__dot is-selected"></button>
+          <button class="carousel__dot"></button>
+          <button class="carousel__dot"></button>
+        </div>
+      </section>  
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
